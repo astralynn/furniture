@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-muted {
+    margin-bottom: 0;
+}
+
+.container-1 {
+    background: #DCE1DA;
+    width: 1440px;
+    height: 265px;
+    flex-shrink: 0;
+}
+
+.sale {
+    color: #A86A3D;
+}
+
+.container-2 {
+    width: 636px;
+    height: 368px;
+    background: #FAFAFA;
+}
+
+.container-3{
+    background: #EAE9E7;
+    width: 636px;
+height: 368px;
+}
+
+.decor{
+    width: 306px;
+height: 566px;
+background: rgba(0, 0, 0, 0.40);
+}
+.kutak{
+    margin-left: 35px;
+}
+.huy{
+    color: #F81111;
+}
+.bedroom{
+        margin-left: 202px;
+}
+
+.kutagim{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    
+}
+.sex{
+margin-left: 100px;
+}
+ .h1, text-ebaniy{
+    margin-left: 250px;
+}
+.umid-yeban{
+    margin-left: 335px;
+    
+}
+.card, uz-popka{
+    display: flex;
+    display: inline-block;
+    flex-wrap: wrap;
+    margin-left: 300px;
+    
+}
+
+.custom-checkbox{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+border: 2px solid rgba(170, 170, 172, 0.60);
+background: #FFF;
+}
+
+.dd-inline-block label{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+label.label{
+    position: relative;
+}
+.og-checkbox{
+position: absolute;
+z-index: -2;
+opacity: 0;
+}
+.custom-checkbox-2{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+border-radius: 5px;
+background: #323334;
+}
+
+.custom-checkbox-3{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #C4C4C4;
+}
+.custom-checkbox-4{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F2C94C;
+}
+.custom-checkbox-5{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #F2994A;
+}
+.custom-checkbox-6{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #EB5757;
+}
+.custom-checkbox-7{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #BB6BD9;
+}
+
+.custom-checkbox-8{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #56CCF2;
+}
+
+.custom-checkbox-9{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #6FCF97;
+}
+
+.custom-checkbox-10{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #219653;
+}
+
+.custom-checkbox-11{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #2F80ED;
+}
+
+.custom-checkbox-12{
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #DF1313;
+}
+.custom-checkbox-13{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+    border-radius: 5px;
+background: #DF1313;
+}
+.custom-checkbox-14{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #0A5D8B;
+
+}
+.custom-checkbox-15{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #AD5B12;
+}
+.custom-checkbox-16{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #4F0E8B;
+}
+
+.custom-checkbox-17{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #0A7090;
+}
+
+.custom-checkbox-18{
+    display: inline-block;
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #156008;
+}
+
+.og-checkbox:checked ~ .custom-checkbox{
+    border: 2px solid #000;
+}
